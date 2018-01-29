@@ -1,0 +1,27 @@
+CREATE TABLE demo.eventsfinal (
+    tenantid text,
+    userid text,
+    eventid uuid,
+    starttime time,
+    assistant text,
+    cohost text,
+    cover blob,
+    currency text,
+    days list<text>,
+    deleted boolean,
+    description text,
+    finishrepeatingon timestamp,
+    location text,
+    organisation uuid,
+    paid boolean,
+    participants list<text>,
+    price double,
+    privateevent boolean,
+    repeat text,
+    tags text,
+    tenantmap map<text, text>,
+    title text,
+    usermap map<text, text>,
+    PRIMARY KEY ((tenantid, userid), eventid, starttime)
+) WITH CLUSTERING ORDER BY (eventid ASC, starttime ASC)
+

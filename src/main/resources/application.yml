@@ -1,0 +1,22 @@
+spring:
+  main:
+    web-environment: false
+
+kafka:
+  bootstrap-servers: localhost:9092
+
+topic:
+  producer: producer
+
+receivertopic:
+  consumer: consumer
+
+  
+cassandra:
+  keyspace: demo
+  listenPort: 127.0.0.1
+  cassandrahost: 127.0.0.1
+  cassandraport: 9042
+  cassandratimeout: 10000
+ 
+group.groupId: 8081

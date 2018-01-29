@@ -1,0 +1,19 @@
+//JSON FOR ADD RECORD
+
+{"operation": "add" ,"type": "message",  "tenant": {"id": "U1147483697","tenantname": "john.doe"  },"user": {  "id": "U2147483697", "username": "john.doe", "fullName": "John Doe"  },  "eventid": "38400000-8cf0-11bd-b23e-10b96e4ef00d",  "title": "", "location": "",  "description": "", "tag": "taggg", "cover": "",  "paid": true,  "price": 100,  "currency": "$", "privateevent": false, "repeat": "", "days": [ "Monday", "Tuesday" ],  "repeatend": "",  "cohost": { "id": "U2147483697", "username": "john.doe", "fullName": "Kon Doe"},  "assistant": {"id": "U2147483697", "username": "john.doe", "fullName": "John Doe"},  "participants": ["sarves","dsads"]}
+
+//JSON FOR READ
+
+{"operation": "read" ,"type": "",  "tenant": {"id": "U1147483697","tenantname": "john.doe"  },"user": {  "id": "U2147483697", "username": "john.doe", "fullName": "John Doe"  },  "eventid": "38400000-8cf0-11bd-b23e-10b96e4ef00d",  "title": "", "location": "",  "description": "", "tag": "", "cover": "",  "paid": ,  "price": ,  "currency": "", "privateevent": , "repeat": "", "days": [],  "repeatend": "",  "cohost": {},  "assistant": {},  "participants": []}
+
+//JSON FOR UPDATE
+
+{"operation": "update" ,"type": "updatedMessage",  "tenant": {"id": "U1147483697","tenantname": "john.doe"  },"user": {  "id": "U2147483697", "username": "john.doe", "fullName": "John Doe"  },  "eventid": "38400000-8cf0-11bd-b23e-10b96e4ef00d",  "title": "", "newLocation": "",  "description": "", "tag": "taggg", "cover": "",  "paid": true,  "price": 100,  "currency": "$", "privateevent": false, "repeat": "", "days": [ "Monday", "Tuesday" ],  "repeatend": "",  "cohost": { "id": "U2147483697", "username": "john.doe", "fullName": "Kon Doe"},  "assistant": {"id": "U2147483697", "username": "john.doe", "fullName": "John Doe"},  "participants": ["sarves","dsads"]}
+
+//JSON FOR DELETE
+
+{"operation": "delete" ,"type": "",  "tenant": {"id": "U1147483697","tenantname": "john.doe"  },"user": {  "id": "U2147483697", "username": "john.doe", "fullName": "John Doe"  },  "eventid": "38400000-8cf0-11bd-b23e-10b96e4ef00d",  "title": "", "location": "",  "description": "", "tag": "", "cover": "",  "paid": ,  "price": ,  "currency": "", "privateevent": , "repeat": "", "days": [],  "repeatend": "",  "cohost": {},  "assistant": {},  "participants": []}
+
+//JSON FOR READ_ALL
+
+{"operation": "read" ,"type": "",  "tenant": {"id": "U1147483697","tenantname": "john.doe"  },"user": {  "id": "U2147483697", "username": "john.doe", "fullName": "John Doe"  },  "eventid": "",  "title": "", "location": "",  "description": "", "tag": "", "cover": "",  "paid": ,  "price": ,  "currency": "", "privateevent": , "repeat": "", "days": [],  "repeatend": "",  "cohost": {},  "assistant": {},  "participants": []}
